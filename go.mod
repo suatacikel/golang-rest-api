@@ -1,4 +1,4 @@
-module restapi/v1
+module main
 
 go 1.17
 
