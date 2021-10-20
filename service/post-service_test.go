@@ -24,6 +24,10 @@ func (mock *MockRepository) FindAll() ([]entity.Post, error) {
 	return result.([]entity.Post), args.Error(1)
 }
 
+func (mock *MockRepository) Delete(*entity.Post) error {
+	return nil
+}
+
 func TestFindAll(t *testing.T) {
 	mockRepo := new(MockRepository)
 	var identifier int = 1
