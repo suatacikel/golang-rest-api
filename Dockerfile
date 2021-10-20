@@ -14,6 +14,6 @@ COPY . .
 
 ENV PORT 8000
 
-RUN go build 
+RUN go build
 
 CMD ["./golang-rest-api"]
