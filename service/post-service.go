@@ -19,11 +19,10 @@ var (
 	repo repository.PostRepository
 )
 
-func NewPostService(repo repository.PostRepository ) PostService {
-	repo = repo
+func NewPostService(r repository.PostRepository) PostService {
+	repo = r
 	return &service{}
 }
-
 
 func (*service) Validate(post *entity.Post) error {
 	if post == nil {
