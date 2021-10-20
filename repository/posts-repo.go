@@ -1,6 +1,6 @@
 package repository
 
-import "main/entity"
+import "github.com/suatacikel/golang-rest-api/entity"
 
 type PostRepository interface {
 	Save(post *entity.Post) (*entity.Post, error)

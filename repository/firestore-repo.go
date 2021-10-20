@@ -3,7 +3,8 @@ package repository
 import (
 	"context"
 	"log"
-	"main/entity"
+
+	"github.com/suatacikel/golang-rest-api/entity"
 
 	"cloud.google.com/go/firestore"
 	"google.golang.org/api/iterator"

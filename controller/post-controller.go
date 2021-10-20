@@ -2,10 +2,11 @@ package controller
 
 import (
 	"encoding/json"
-	"main/entity"
-	"main/errors"
-	"main/service"
 	"net/http"
+
+	"github.com/suatacikel/golang-rest-api/entity"
+	"github.com/suatacikel/golang-rest-api/errors"
+	"github.com/suatacikel/golang-rest-api/service"
 )
 
 type PostController interface {

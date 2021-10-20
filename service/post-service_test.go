@@ -1,8 +1,9 @@
 package service
 
 import (
-	"main/entity"
 	"testing"
+
+	"github.com/suatacikel/golang-rest-api/entity"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

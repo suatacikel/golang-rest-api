@@ -5,12 +5,13 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"main/entity"
-	"main/repository"
-	"main/service"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/suatacikel/golang-rest-api/entity"
+	"github.com/suatacikel/golang-rest-api/repository"
+	"github.com/suatacikel/golang-rest-api/service"
 
 	"github.com/stretchr/testify/assert"
 )

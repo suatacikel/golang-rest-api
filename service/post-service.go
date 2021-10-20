@@ -2,9 +2,10 @@ package service
 
 import (
 	"errors"
-	"main/entity"
-	"main/repository"
 	"math/rand"
+
+	"github.com/suatacikel/golang-rest-api/entity"
+	"github.com/suatacikel/golang-rest-api/repository"
 )
 
 type PostService interface {

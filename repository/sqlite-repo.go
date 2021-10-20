@@ -3,8 +3,9 @@ package repository
 import (
 	"database/sql"
 	"log"
-	"main/entity"
 	"os"
+
+	"github.com/suatacikel/golang-rest-api/entity"
 )
 
 type sqliteRepo struct{}
